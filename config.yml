@@ -1,39 +1,18 @@
-baseURL: "https://pascalmichaillat.org/" 
-title: Pascal Michaillat
+baseURL: "https://pragathip.github.io/" 
+title: Pragathi Praveena
 paginate: 20
 theme: PaperMod
 
 enableInlineShortcodes: true
 enableRobotsTXT: true
 
-social:
-    twitter: pmichaillat
 
 taxonomies:
     tag: tags
 
-menu:
-    main:
-        - name: Papers
-          url: /papers/
-          weight: 1
-        - name: Courses
-          url: /courses/
-          weight: 2
-        - name: Design
-          url: /design/
-          weight: 3
-        - name: Tags
-          url: /tags/
-          weight: 5     
-        - name: Newsletter
-          url: https://pmichaillat.substack.com
-          weight: 4
-
 params:
-    description: "I am an Associate Professor of Economics at UC Santa Cruz. I work on unemployment, economic slack, business cycles, macroeconomic policy, and metascience."
-    author: Pascal Michaillat
-    googleAnalyticsID: "G-97G4MZ4061"
+    author: Pragathi Praveena
+    googleAnalyticsID: ""
     DateFormat: "January 2006"
     defaultTheme: light
     hideFooter: true
@@ -55,38 +34,23 @@ params:
     math: true
     profileMode:
           enabled: true
-          title: Pascal Michaillat
-          subtitle: "I am an Associate Professor of Economics at the University of California, Santa Cruz. I work on unemployment, economic slack, business cycles, macroeconomic policy, and metascience."
+          title: Pragathi Praveena
+          subtitle: "I design, build, and evaluate human-robot interfaces to enable remote collaborative work between people. I am currently a Ph.D. candidate in CS at the University of Wisconsin-Madison and I am advised by <mark>[Dr. Bilge Mutlu](http://bilgemutlu.com/)</mark> and <mark>[Dr. Michael Gleicher.](https://gleicher.sites.cs.wisc.edu/)</mark> <br><br> Get a glimpse of my current research in this <mark>[1-minute teaser!](https://twitter.com/HRIPioneers/status/1626663545810354176?s=20)</mark> I am most excited about <mark>[the *Periscope* robotic camera system](https://www.researchgate.net/publication/370602657_Periscope_A_Robotic_Camera_System_to_Support_Remote_Physical_Collaboration)</mark> which facilitates remote collaboration between two people. I have also been exploring the use of <mark>[collaborative robot arms in cinematography.](https://dl.acm.org/doi/10.1145/3544549.3585715)</mark><br><br>**I am on the job market** for post-doc/research scientist/faculty positions! I prototype robotic systems (especially with cobots and cameras) and study user interactions (through mixed methods). I enjoy mentoring and put effort into fostering collective growth. I am deeply passionate about human collaboration, both in my research and outside. "
           imageUrl: "/picture.jpeg"
-          imageWidth: 170
-          imageHeight: 170
-          imageTitle: Pascal Michaillat
-          buttons:
-            - name: Papers
-              url: /papers/
-            - name: Courses
-              url: /courses/
-            - name: Design
-              url: /design/
-            - name: Newsletter
-              url: https://pmichaillat.substack.com
+          imageWidth: 200
+          imageHeight: 200
+          imageTitle: Pragathi Praveena
     socialIcons:
         - name: CV
-          url: /cv.pdf
-        - name: Email
-          url: mailto:pascal.michaillat@gmail.com
-        - name: Location
-          url: /location/
-        - name: Office Hours
-          url: /officehours/
+          url: /praveena-cv.pdf
         - name: Google Scholar
-          url: https://scholar.google.com/citations?user=cL23w-4AAAAJ
-        - name: YouTube
-          url: https://www.youtube.com/@pmichaillat
-        - name: GitHub
-          url: https://github.com/pmichaillat?tab=repositories
-        # - name: Substack
-        #   url: https://pmichaillat.substack.com
+          url: https://scholar.google.com/citations?user=1VSKpsIAAAAJ
+        - name: Email
+          url: mailto:pragathi@cs.wisc.edu
+        - name: LinkedIn
+          url: https://www.linkedin.com/in/itispragathi/
+        - name: Twitter
+          url: https://twitter.com/itispragathi
 
     assets:
         disableHLJS: true
@@ -95,7 +59,7 @@ params:
         hiddenInList: true
         hiddenInSingle: true
     label:
-      text: "Pascal Michaillat"
+      text: "Pragathi Praveena"
       icon: /favicon.ico
       iconHeight: 18
 
