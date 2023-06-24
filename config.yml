@@ -34,7 +34,24 @@ params:
     profileMode:
           enabled: true
           title: Pragathi Praveena
-          subtitle: "I design, build, and evaluate human-robot interfaces to enable remote collaborative work between people. I am currently a Ph.D. candidate in CS at the University of Wisconsin-Madison and I am advised by [Dr. Bilge Mutlu](http://bilgemutlu.com/) and [Dr. Michael Gleicher.](https://gleicher.sites.cs.wisc.edu/) <br><br> Get a glimpse of my current research in this [1-minute teaser!](https://twitter.com/HRIPioneers/status/1626663545810354176?s=20) I am most excited about the [*Periscope* robotic camera system](https://www.researchgate.net/publication/370602657_Periscope_A_Robotic_Camera_System_to_Support_Remote_Physical_Collaboration) which facilitates remote collaboration between two people. I have also been exploring the use of [collaborative robot arms in cinematography.](https://dl.acm.org/doi/10.1145/3544549.3585715)<br><br>**I am on the job market** for post-doc/research scientist/faculty positions! I prototype robotic systems (especially with cobots and cameras) and study user interactions (through mixed methods). I enjoy mentoring and put effort into fostering collective growth. I am deeply passionate about human collaboration, both in my research and outside."
+          subtitle: "I design,
+build, and evaluate human-robot interfaces to enable remote collaborative
+work between people. I am currently a Ph.D. candidate in CS at the University
+of Wisconsin-Madison and I am advised by [Dr. Bilge Mutlu]
+(http://bilgemutlu.com/) and [Dr. Michael Gleicher.]
+(https://gleicher.sites.cs.wisc.edu/) <br><br> Get a glimpse of my current
+research in this [1-minute teaser!]
+(https://twitter.com/HRIPioneers/status/1626663545810354176?s=20) I am most
+excited about the [*Periscope* robotic camera system]
+(https://www.researchgate.net/publication/370602657_Periscope_A_Robotic_Camera_System_to_Support_Remote_Physical_Collaboration)
+which facilitates remote collaboration between two people. I have also been
+exploring the use of [collaborative robot arms in cinematography.]
+(https://dl.acm.org/doi/10.1145/3544549.3585715)<br><br>**I am on the job
+market** for post-doc/research scientist/faculty positions! I prototype
+robotic systems (especially with cobots and cameras) and study user
+interactions with them (through mixed methods). I enjoy mentoring and put effort into
+fostering collective growth. I am deeply passionate about human
+collaboration, both in my research and outside."
           imageUrl: "/picture.jpeg"
           imageWidth: 200
           imageHeight: 200
