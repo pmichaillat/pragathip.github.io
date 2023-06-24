@@ -34,20 +34,25 @@ params:
     profileMode:
           enabled: true
           title: Pragathi Praveena
-          subtitle: "I design,
-build, and evaluate human-robot interfaces to enable remote collaborative
-work between people. I am currently a Ph.D. candidate in CS at the University
-of Wisconsin-Madison and I am advised by [Dr. Bilge Mutlu](http://bilgemutlu.com/) and 
-[Dr. Michael Gleicher.](https://gleicher.sites.cs.wisc.edu/) <br><br> Get a glimpse of my current
+          subtitle: "👋 I design,
+build, and evaluate ➡️ human-robot interfaces 🤖 to enable remote work and collaboration. I am a Ph.D. candidate in [Computer Science](https://www.cs.wisc.edu/) at the [University
+of Wisconsin-Madison.](https://www.wisc.edu/) I am advised by [Dr. Bilge Mutlu](http://bilgemutlu.com/) and 
+[Dr. Michael Gleicher.](https://gleicher.sites.cs.wisc.edu/) 
+<br><br> Get a glimpse of my current
 research in this [1-minute teaser!](https://twitter.com/HRIPioneers/status/1626663545810354176?s=20) 
-I am most excited about the [*Periscope* robotic camera system](https://www.researchgate.net/publication/370602657_Periscope_A_Robotic_Camera_System_to_Support_Remote_Physical_Collaboration)
+🎉 I am most excited about the [*Periscope* robotic camera system](https://www.researchgate.net/publication/370602657_Periscope_A_Robotic_Camera_System_to_Support_Remote_Physical_Collaboration)
 which facilitates remote collaboration between two people. I have also been
-exploring the use of [collaborative robot arms in cinematography.](https://dl.acm.org/doi/10.1145/3544549.3585715)
-<br><br>**I am on the jobmarket** for post-doc/research scientist/faculty positions! I prototype
-robotic systems (especially with cobots and cameras) and study user
+exploring the use of [collaborative robot arms in cinematography](https://dl.acm.org/doi/10.1145/3544549.3585715) 🎥 .
+<br><br>
+Prior to joining graduate school, I was a junior scientist for 2️⃣ years at [Xerox Research Center India](https://www.news.conduent.com/news/Xerox-expands-healthcare-research-at-hospitals-with-remote-sensing) 
+where I built algorithms for monitoring a person’s breathing using webcams [(see video).](https://youtu.be/a7BPu4mUKaY)
+I have a B.Tech. in Electrical Engineering from the [Indian Institute of Technology Madras.](https://www.iitm.ac.in/)
+<br>
+<blockquote>**I am on the job market** for post-doc/research scientist/faculty positions! I prototype
+robotic systems (especially with cobots and cameras) and study user 
 interactions with them (through mixed methods). I enjoy mentoring and put effort into
 fostering collective growth. I am deeply passionate about human
-collaboration, both in my research and outside."
+collaboration, both in my research and outside.</blockquote>"
           imageUrl: "/picture.jpeg"
           imageWidth: 200
           imageHeight: 200
