@@ -1,0 +1,143 @@
+digraph G {
+
+	graph [bgcolor="#222222", fontcolor="white", fontname="Arial", fontsize=10];
+    node [shape=box, style=filled, fillcolor="#3a3a3a", fontcolor="white", fontname="Arial", fontsize=10, color="#888888"];
+    edge [color="#ffffff", fontcolor="white", fontname="Arial", fontsize=10];
+"tzap_1" [label=<Connection (1) > ];
+"tzap_2" [label=<MutateContext (2) > ];
+"tzap_3" [label=<Work (3) > ];
+"tzap_4" [label=<ApplyWorkflow () Start (4) > ];
+"tzap_5" [label=<ApplyWorkflow (listInspirationFiles) Start (5) > ];
+"tzap_6" [label=<Work (6) > ];
+"tzap_7" [label=<ApplyWorkflow (listInspirationFiles) End (7) > ];
+"tzap_8" [label=<ApplyWorkflow (inspirationWorkflow) Start (8) > ];
+"tzap_9" [label=<ApplyWorkflow (inspirationWorkflow) End (9) > ];
+"tzap_10" [label=<ApplyWorkflow (loadAndSearchEmbeddings) Start (10) > ];
+"tzap_11" [label=<ApplyWorkflow (indexFilesAndEmbeddings) Start (11) > ];
+"tzap_12" [label=<ApplyWorkflow (loadAndFetchEmbeddings) Start (12) > ];
+"tzap_13" [label=<ApplyWorkflow (prepareEmbedFilesWorkflow) Start (13) > ];
+"tzap_14" [label=<prepareEmbedFilesTzap (14) > ];
+"tzap_15" [label=<ApplyWorkflow (prepareEmbedFilesWorkflow) End (15) > ];
+"tzap_16" [label=<ApplyWorkflow (confirmEmbeddingSearch) Start (16) > ];
+"tzap_17" [label=<ApplyWorkflow (confirmEmbeddingSearch) End (17) > ];
+"tzap_18" [label=<ApplyWorkflow (fetchOrCachedEmbeddingForFilesWorkflow) Start (18) > ];
+"tzap_19" [label=<fetchOrCachedEmbeddingForFilesTzap (19) > ];
+"tzap_20" [label=<ApplyWorkflow (fetchOrCachedEmbeddingForFilesWorkflow) End (20) > ];
+"tzap_21" [label=<ApplyWorkflow (saveAndLoadEmbeddingsToDB) Start (21) > ];
+"tzap_22" [label=<ApplyWorkflow (saveAndLoadEmbeddingsToDB) End (22) > ];
+"tzap_23" [label=<ApplyWorkflow (loadAndFetchEmbeddings) End (23) > ];
+"tzap_24" [label=<ApplyWorkflow (indexFilesAndEmbeddings) End (24) > ];
+"tzap_25" [label=<ApplyWorkflow (searchFilesWorkflow) Start (25) > ];
+"tzap_26" [label=<searchResults (26) > ];
+"tzap_27" [label=<ApplyWorkflow (searchFilesWorkflow) End (27) > ];
+"tzap_28" [label=<ApplyWorkflow (loadAndSearchEmbeddings) End (28) > ];
+"tzap_29" [label=<ApplyWorkflow (listInspirationFiles) Start (29) > ];
+"tzap_30" [label=<Work (30) > ];
+"tzap_31" [label=<ApplyWorkflow (listInspirationFiles) End (31) > ];
+"tzap_32" [label=<ApplyWorkflow (SearchWorkflow) Start (32) > ];
+"tzap_33" [label=<AddSystemMessage (33) <br/>Message:<br/>Role:system<br/>Content:<br/>The following file contents ar [...]> ];
+"tzap_34" [label=<AddSystemMessage (34) <br/>Message:<br/>Role:system<br/>Content:<br/>####embedding from file: theme [...]> ];
+"tzap_35" [label=<AddSystemMessage (35) <br/>Message:<br/>Role:system<br/>Content:<br/>####embedding from file: theme [...]> ];
+"tzap_36" [label=<AddSystemMessage (36) <br/>Message:<br/>Role:system<br/>Content:<br/>####embedding from file: theme [...]> ];
+"tzap_37" [label=<AddSystemMessage (37) <br/>Message:<br/>Role:system<br/>Content:<br/>####embedding from file: theme [...]> ];
+"tzap_38" [label=<AddSystemMessage (38) <br/>Message:<br/>Role:system<br/>Content:<br/>####embedding from file: theme [...]> ];
+"tzap_39" [label=<AddSystemMessage (39) <br/>Message:<br/>Role:system<br/>Content:<br/>####embedding from file: theme [...]> ];
+"tzap_40" [label=<AddSystemMessage (40) <br/>Message:<br/>Role:system<br/>Content:<br/>####embedding from file: theme [...]> ];
+"tzap_41" [label=<AddSystemMessage (41) <br/>Message:<br/>Role:system<br/>Content:<br/>####embedding from file: theme [...]> ];
+"tzap_42" [label=<ApplyWorkflow (SearchWorkflow) End (42) > ];
+"tzap_43" [label=<AddUserMessage (43) <br/>Message:<br/>Role:user<br/>Content:<br/>what markdowns are not needed  [...]> ];
+"tzap_1" -> "tzap_2";
+"tzap_2" -> "tzap_3";
+"tzap_3" -> "tzap_4";
+"tzap_4" -> "tzap_5";
+"tzap_5" -> "tzap_6";
+"tzap_5" -> "tzap_7";
+"tzap_7" -> "tzap_8";
+"tzap_8" -> "tzap_9";
+"tzap_9" -> "tzap_10";
+"tzap_10" -> "tzap_11";
+"tzap_11" -> "tzap_12";
+"tzap_12" -> "tzap_13";
+"tzap_13" -> "tzap_14";
+"tzap_14" -> "tzap_15";
+"tzap_15" -> "tzap_16";
+"tzap_16" -> "tzap_17";
+"tzap_17" -> "tzap_18";
+"tzap_18" -> "tzap_19";
+"tzap_19" -> "tzap_20";
+"tzap_20" -> "tzap_21";
+"tzap_21" -> "tzap_22";
+"tzap_22" -> "tzap_23";
+"tzap_23" -> "tzap_24";
+"tzap_24" -> "tzap_25";
+"tzap_25" -> "tzap_26";
+"tzap_26" -> "tzap_27";
+"tzap_27" -> "tzap_28";
+"tzap_28" -> "tzap_29";
+"tzap_29" -> "tzap_30";
+"tzap_29" -> "tzap_31";
+"tzap_31" -> "tzap_32";
+"tzap_32" -> "tzap_33";
+"tzap_33" -> "tzap_34";
+"tzap_34" -> "tzap_35";
+"tzap_35" -> "tzap_36";
+"tzap_36" -> "tzap_37";
+"tzap_37" -> "tzap_38";
+"tzap_38" -> "tzap_39";
+"tzap_39" -> "tzap_40";
+"tzap_40" -> "tzap_41";
+"tzap_41" -> "tzap_42";
+"tzap_42" -> "tzap_43";
+"tzap_33" -> "chat_0_msg_0" [style=dotted];
+"tzap_34" -> "chat_0_msg_1" [style=dotted];
+"chat_0_msg_0" -> "chat_0_msg_1" [style=dotted];
+"tzap_35" -> "chat_0_msg_2" [style=dotted];
+"chat_0_msg_1" -> "chat_0_msg_2" [style=dotted];
+"tzap_36" -> "chat_0_msg_3" [style=dotted];
+"chat_0_msg_2" -> "chat_0_msg_3" [style=dotted];
+"tzap_37" -> "chat_0_msg_4" [style=dotted];
+"chat_0_msg_3" -> "chat_0_msg_4" [style=dotted];
+"tzap_38" -> "chat_0_msg_5" [style=dotted];
+"chat_0_msg_4" -> "chat_0_msg_5" [style=dotted];
+"tzap_39" -> "chat_0_msg_6" [style=dotted];
+"chat_0_msg_5" -> "chat_0_msg_6" [style=dotted];
+"tzap_40" -> "chat_0_msg_7" [style=dotted];
+"chat_0_msg_6" -> "chat_0_msg_7" [style=dotted];
+"tzap_41" -> "chat_0_msg_8" [style=dotted];
+"chat_0_msg_7" -> "chat_0_msg_8" [style=dotted];
+"chat_0_msg_9" -> "tzap_43" [style=dotted];
+"chat_0_msg_8" -> "chat_0_msg_9" [style=dotted];
+
+	subgraph cluster_chat_0 {
+		label = "GPT Chat(0):";
+		bgcolor = "#333333";
+
+	subgraph cluster_chat_0_REQUEST {
+		label = "REQUEST";
+		bgcolor = "#333333";
+		"chat_0_msg_0" [label=<Message Tokens(11) (0):<br/>Role: system<br/>The following file contents are embeddings for the user input:> , tooltip=<The following file contents are embeddings for the user input:> ];
+		"chat_0_msg_1" [label=<Message Tokens(227) (1):<br/>Role: system<br/>####embedding from file: themes/PaperMod/assets/js/highlight.min.js<br/>end:/\\)/,keywords:built_in:\&#34;subst patsubst strip findstring filter filter-out sort word wordlist firstword lastword dir notdir suffix basename addsuffix addprefix join wildcard realpath abspath error warning shell origin flavo> , tooltip=<####embedding from file: themes/PaperMod/assets/js/highlight.min.js
+end:/\\)/,keywords:built_in:\&#34;subst patsubst strip findstring filter filter-out sort word wordlist firstword lastword dir notdir suffix basename addsuffix addprefix join wildcard realpath abspath error warning shell origin flavor foreach if or and call eval file value\&#34;,contains:[i],r=begin:\&#34;^\&#34;+e.UNDERSCORE_IDENT_RE+\&#34;\\\\s*(?=[:+?]?=)\&#34;,s=className:\&#34;section\&#34;,begin:/^[^\\s]+:/,end:/$/,contains:[i];returnname:\&#34;Makefile\&#34;,aliases:[\&#34;mk\&#34;,\&#34;mak\&#34;],keywords:$pattern:/[\\w-]+/,keyword:\&#34;define endef undefine ifdef ifndef ifeq ifneq else endif include -include sinclude override export unexport private vpath\&#34;,contains:[e.HASH_COMMENT_MODE,i,n,a,r,className:\&#34;meta\&#34;,begin:/^\\.PHONY:/,end:/$/,keywords:$pattern:/[\\.\\w]+/,\&#34;meta-key> ];
+		"chat_0_msg_2" [label=<Message Tokens(443) (2):<br/>Role: system<br/>####embedding from file: themes/PaperMod/assets/js/highlight.min.js<br/>.contains.push(i);var c=[e,a];return i.contains=i.contains.concat(c),s.contains=s.contains.concat(c),name:\&#34;Markdown\&#34;,aliases:[\&#34;md\&#34;,\&#34;mkdown\&#34;,\&#34;mkd\&#34;],contains:[className:\&#34;section\&#34;,varia> , tooltip=<####embedding from file: themes/PaperMod/assets/js/highlight.min.js
+.contains.push(i);var c=[e,a];return i.contains=i.contains.concat(c),s.contains=s.contains.concat(c),name:\&#34;Markdown\&#34;,aliases:[\&#34;md\&#34;,\&#34;mkdown\&#34;,\&#34;mkd\&#34;],contains:[className:\&#34;section\&#34;,variants:[begin:\&#34;^#1,6\&#34;,end:\&#34;$\&#34;,contains:c=c.concat(i,s),begin:\&#34;(?=^.+?\\\\n[=-]2,$)\&#34;,contains:[begin:\&#34;^[=-]*$\&#34;,begin:\&#34;^\&#34;,end:\&#34;\\\\n\&#34;,contains:c]],e,className:\&#34;bullet\&#34;,begin:\&#34;^[ \\t]*([*+-]|(\\\\d+\\\\.))(?=\\\\s+)\&#34;,end:\&#34;\\\\s+\&#34;,excludeEnd:!0,i,s,className:\&#34;quote\&#34;,begin:\&#34;^\&gt;\\\\s+\&#34;,contains:c,end:\&#34;$\&#34;,className:\&#34;code\&#34;,variants:[begin:\&#34;(`3,)(.|\\\\n)*?\\\\1`*[ ]*\&#34;,begin:\&#34;(~3> ];
+		"chat_0_msg_3" [label=<Message Tokens(659) (3):<br/>Role: system<br/>####embedding from file: themes/PaperMod/assets/js/highlight.min.js<br/>)var n=\&#34;[a-zA-Z_]\\\\w*[!?=]?|[-+~]\\\\@|\&lt;\&lt;|\&gt;\&gt;|=~|===?|\&lt;=\&gt;|[\&lt;\&gt;]=?|\\\\*\\\\*|[-/+%^&amp;amp;*~`|]|\\\\[\\\\]=?\&#34;,a=keyword:\&#34;and then defined module in return redo if BEGIN retry end for > , tooltip=<####embedding from file: themes/PaperMod/assets/js/highlight.min.js
+)var n=\&#34;[a-zA-Z_]\\\\w*[!?=]?|[-+~]\\\\@|\&lt;\&lt;|\&gt;\&gt;|=~|===?|\&lt;=\&gt;|[\&lt;\&gt;]=?|\\\\*\\\\*|[-/+%^&amp;amp;*~`|]|\\\\[\\\\]=?\&#34;,a=keyword:\&#34;and then defined module in return redo if BEGIN retry end for self when next until do begin unless END rescue else break undef not super class case require yield alias while ensure elsif or include attr_reader attr_writer attr_accessor\&#34;,literal:\&#34;true false nil\&#34;,s=className:\&#34;doctag\&#34;,begin:\&#34;@[A-Za-z]+\&#34;,i=begin:\&#34;#\&lt;\&#34;,end:\&#34;\&gt;\&#34;,r=[e.COMMENT(\&#34;#\&#34;,\&#34;$\&#34;,contains:[s]),e.COMMENT(\&#34;^\\\\=begin\&#34;,\&#34;^\\\\=end\&#34;,contains:[s],relevance:10),e.COMMENT(\&#34;^__END__\&#34;,\&#34;\\\\n$\&#34;)],c=className:\&#34;subst\&#34;,begin:\&#34;#\\\\\&#34;,end:\&#34;\&#34;,keywords:a> ];
+		"chat_0_msg_4" [label=<Message Tokens(875) (4):<br/>Role: system<br/>####embedding from file: themes/PaperMod/assets/js/highlight.min.js<br/> debug_assert_eq! env! panic! file! format! format_args! include_bin! include_str! line! local_data_key! module_path! option_env! print! println! select! stringify! try! unimplemented! unreachable! vec! write! writeln! macro_rules! > , tooltip=<####embedding from file: themes/PaperMod/assets/js/highlight.min.js
+ debug_assert_eq! env! panic! file! format! format_args! include_bin! include_str! line! local_data_key! module_path! option_env! print! println! select! stringify! try! unimplemented! unreachable! vec! write! writeln! macro_rules! assert_ne! debug_assert_ne!\&#34;;returnname:\&#34;Rust\&#34;,aliases:[\&#34;rs\&#34;],keywords:$pattern:e.IDENT_RE+\&#34;!?\&#34;,keyword:\&#34;abstract as async await become box break const continue crate do dyn else enum extern false final fn for if impl in let loop macro match mod move mut override priv pub ref return self Self static struct super trait true try type typeof unsafe unsized use virtual where while yield\&#34;,literal:\&#34;true false Some None Ok Err\&#34;,built_in:t,illegal:\&#34;\&lt;/\&#34;,contains:[e.C_LINE_COMMENT_MODE,e.COMMENT(\&#34;/\\\\*\&#34;,\&#34;\\\\*/\&#34;,contains:[\&#34;self\&#34;]),e.inherit(e.QUOTE_STRING_MODE,begin:/b?\&#34;/,illegal:null),className> ];
+		"chat_0_msg_5" [label=<Message Tokens(1091) (5):<br/>Role: system<br/>####embedding from file: themes/PaperMod/assets/js/highlight.min.js<br/>|font-variant|font-style|font-stretch|font-size-adjust|font-size|font-language-override|font-kerning|font-feature-settings|font-family|font|float|flex-wrap|flex-shrink|flex-grow|flex-flow|flex-direction|flex-basis|flex|filter|empty-> , tooltip=<####embedding from file: themes/PaperMod/assets/js/highlight.min.js
+|font-variant|font-style|font-stretch|font-size-adjust|font-size|font-language-override|font-kerning|font-feature-settings|font-family|font|float|flex-wrap|flex-shrink|flex-grow|flex-flow|flex-direction|flex-basis|flex|filter|empty-cells|display|direction|cursor|counter-reset|counter-increment|content|column-width|column-span|column-rule-width|column-rule-style|column-rule-color|column-rule|column-gap|column-fill|column-count|columns|color|clip-path|clip|clear|caption-side|break-inside|break-before|break-after|box-sizing|box-shadow|box-decoration-break|bottom|border-width|border-top-width|border-top-style|border-top-right-radius|border-top-left-radius|border-top-color|border-top|border-style|border-spacing|border-right-width|border-right-style|border-right-color|border-right|border-radius> ];
+		"chat_0_msg_6" [label=<Message Tokens(1307) (6):<br/>Role: system<br/>####embedding from file: themes/PaperMod/assets/js/highlight.min.js<br/> explain help declare prepare execute deallocate release unlock purge reset change stop analyze cache flush optimize repair kill install uninstall checksum restore check backup revoke comment values with\&#34;,end:/;/,endsWithParent> , tooltip=<####embedding from file: themes/PaperMod/assets/js/highlight.min.js
+ explain help declare prepare execute deallocate release unlock purge reset change stop analyze cache flush optimize repair kill install uninstall checksum restore check backup revoke comment values with\&#34;,end:/;/,endsWithParent:!0,keywords:$pattern:/[\\w\\.]+/,keyword:\&#34;as abort abs absolute acc acce accep accept access accessed accessible account acos action activate add addtime admin administer advanced advise aes_decrypt aes_encrypt after agent aggregate ali alia alias all allocate allow alter always analyze ancillary and anti any anydata anydataset anyschema anytype apply archive archived archivelog are as asc ascii asin assembly assertion associate asynchronous at atan atn2 attr attri attrib attribu attribut attribute attributes audit authenticated authentication authid authors auto autoallocate autodblink autoextend automatic availability avg backup badfile basicfile before begin beginning benchmark between bfile bfile_base big bigfile bin binary_double binary_float binlog bit_and bit_count bit_length bit_or bit_xor bitmap blob_base block blocksize body both bound bucket buffer_cache> ];
+		"chat_0_msg_7" [label=<Message Tokens(1523) (7):<br/>Role: system<br/>####embedding from file: themes/PaperMod/assets/js/highlight.min.js<br/> datafiles datalength date_add date_cache date_format date_sub dateadd datediff datefromparts datename datepart datetime2fromparts day day_to_second dayname dayofmonth dayofweek dayofyear days db_role_change dbtimezone ddl deallocat> , tooltip=<####embedding from file: themes/PaperMod/assets/js/highlight.min.js
+ datafiles datalength date_add date_cache date_format date_sub dateadd datediff datefromparts datename datepart datetime2fromparts day day_to_second dayname dayofmonth dayofweek dayofyear days db_role_change dbtimezone ddl deallocate declare decode decompose decrement decrypt deduplicate def defa defau defaul default defaults deferred defi defin define degrees delayed delegate delete delete_all delimited demand dense_rank depth dequeue des_decrypt des_encrypt des_key_file desc descr descri describ describe descriptor deterministic diagnostics difference dimension direct_load directory disable disable_all disallow disassociate discardfile disconnect diskgroup distinct distinctrow distribute distributed div do document domain dotnet double downgrade drop dumpfile duplicate duration each edition editionable editions element ellipsis else elsif elt empty enable enable_all enclosed encode encoding encrypt end end-exec endian enforced engine engines enqueue enterprise entityescaping eomonth error errors escaped evalname evaluate event eventdata events except exception exceptions exchange exclude excluding execu execut execute exempt exists exit exp expire explain explode export export_set extended> ];
+		"chat_0_msg_8" [label=<Message Tokens(2139) (8):<br/>Role: system<br/>####embedding from file: themes/PaperMod/assets/js/highlight.min.js<br/> instr interface interleaved intersect into invalidate invisible is is_free_lock is_ipv4 is_ipv4_compat is_not is_not_null is_used_lock isdate isnull isolation iterate java join json json_exists keep keep_duplicates key keys kill la> , tooltip=<####embedding from file: themes/PaperMod/assets/js/highlight.min.js
+ instr interface interleaved intersect into invalidate invisible is is_free_lock is_ipv4 is_ipv4_compat is_not is_not_null is_used_lock isdate isnull isolation iterate java join json json_exists keep keep_duplicates key keys kill language large last last_day last_insert_id last_value lateral lax lcase lead leading least leaves left len lenght length less level levels library like like2 like4 likec limit lines link list listagg little ln load load_file lob lobs local localtime localtimestamp locate locator lock locked log log10 log2 logfile logfiles logging logical logical_reads_per_call logoff logon logs long loop low low_priority lower lpad lrtrim ltrim main make_set makedate maketime managed management manual map mapping mask master master_pos_wait match matched materialized max maxextents maximize maxinstances maxlen maxlogfiles maxloghistory maxlogmembers maxsize maxtrans md5 measures median medium member memcompress memory merge microsecond mid migration min minextents minimum mining minus minute minutes minvalue missing mod mode model modification modify module monitoring month months mount move movement multiset mutex name name_const names nan national native natural nav nchar nclob nested never new newline next nextval no no_write_to_binlog noarchivelog noaudit nobadfile nocheck nocompress nocopy nocycle nodelay nodiscardfile noentityescaping noguarantee nokeep nologfile nomapping nomaxvalue nominimize nominvalue nomonitoring none noneditionable nonschema noorder nopr nopro noprom nopromp noprompt norely noresetlogs noreverse normal norowdependencies noschemacheck noswitch not nothing notice notnull notrim novalidate now nowait nth_value nullif nulls num numb numbe nvarchar nvarchar2 object ocicoll ocidate ocidatetime ociduration ociinterval ociloblocator ocinumber ociref ocirefcursor ocirowid ocistring ocitype oct octet_length of off offline offset oid oidindex old on online only opaque open operations operator optimal optimize option optionally or oracle oracle_date oradata ord ordaudio orddicom orddoc order ordimage ordinality ordvideo organization orlany orlvary out outer outfile outline output over overflow overriding package pad parallel parallel_enable parameters parent parse partial partition partitions pascal passing password password_grace_time password_lock_time password_reuse_max password_reuse_time password_verify_function patch path patindex pctincrease pctthreshold pctused pctversion percent percent_rank percentile_cont percentile_disc performance period period_add period_diff permanent physical pi pipe pipelined pivot pluggable plugin policy position post_transaction pow power pragma prebuilt precedes preceding precision prediction prediction_cost prediction_details prediction_probability prediction_set prepare present preserve prior priority private private_sga privileges procedural procedure procedure_analyze processlist profiles project prompt protection public publishingservername purge quarter query quick quiesce quota quotename radians raise rand range rank raw read reads readsize rebuild record records recover recovery recursive recycle redo reduced ref reference referenced references referencing> ];
+	}
+
+	subgraph cluster_chat_0_RESPONSE {
+		label = "RESPONSE";
+		bgcolor = "#333333";
+		"chat_0_msg_9" [label=<Message Tokens(10) (9):<br/>Role: user<br/>what markdowns are not needed in the content folder> , tooltip=<what markdowns are not needed in the content folder> ];
+	}
+	}
+}
